@@ -108,3 +108,9 @@ game:GetService("UserInputService").InputBegan:Connect(function(key, gp)
         end
     end
 end)
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Emote Script",
+	Text = "Successfully Injected",
+	Icon = "rbxassetid://12714203201"
+    end
+end
