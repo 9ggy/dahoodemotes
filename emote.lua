@@ -1,3 +1,10 @@
+local CoreGui = game:GetService("StarterGui")
+
+CoreGui:SetCore("SendNotification", {
+	Title = "Emote Script";
+	Text = "Injected Successfully.";
+	Duration = 2;
+})
 local AnimationIds = {
     Lay = "rbxassetid://0",
     Greet = "rbxassetid://0",
@@ -108,9 +115,3 @@ game:GetService("UserInputService").InputBegan:Connect(function(key, gp)
         end
     end
 end)
-game:GetService("StarterGui"):SetCore("SendNotification",{
-	Title = "Emote Script",
-	Text = "Successfully Injected",
-	Icon = "rbxassetid://12714203201"
-    end
-end
